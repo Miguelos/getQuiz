@@ -14,18 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_launcher"
-        android:text="@string/start_form" />
+        android:text="@string/finished" />
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-    <Spinner
-        android:id="@+id/spinner1"
+    <AnalogClock
+        android:id="@+id/analogClock1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -33,7 +25,6 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:text="@string/start_button" />
+        android:text="@string/result_button" />
 
 </LinearLayout>
